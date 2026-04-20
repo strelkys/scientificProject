@@ -1,1 +1,13 @@
-Nothing should be ignored since only a notebook file (.ipynb) was modified and no build artifacts, dependencies, or temporary files were detected in the changes.
+*.ipynb_checkpoints/
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+*.swp
+.env
+.env.local
+.env.*

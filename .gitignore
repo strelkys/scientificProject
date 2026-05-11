@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore since only a Python source file (`create_notebook.py`) was added, which is regular source code that should not be ignored.
+Nothing needs to be added to .gitignore since only a Jupyter notebook file (.ipynb) was added, which is a source file that should be tracked in version control.

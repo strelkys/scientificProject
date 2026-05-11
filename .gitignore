@@ -1,30 +1,80 @@
 *.ipynb_checkpoints
-.DS_Store
-Thumbs.db
+**/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
 .vscode/
 .idea/
-*.log
-*.tmp
 *.swp
-.env
-.env.local
-.env.*
+*.swo
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+.cov.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyTest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-node_modules/
-venv/
-.venv/
-.coverage
-coverage/
-htmlcov/
-.mypy_cache/
+.Python
+*.so
 .pytest_cache/
-dist/
-build/
-target/
-.gradle/
+.coverage
+htmlcov/
+.coverage.*
+.cov.xml
+*.egg-info/
+.installed.cfg
+*.egg
 *.zip
 *.gz
 *.tar

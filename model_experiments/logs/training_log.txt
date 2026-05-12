@@ -1601,3 +1601,140 @@
 [2026-05-12 17:36:09] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
 [2026-05-12 17:36:09] [5/5400] OneDCNN: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
 [2026-05-12 17:36:09]   Параметры модели: 78,114
+[2026-05-12 17:55:43] ================================================================================
+[2026-05-12 17:55:43] НАЧАЛО ТЕСТИРОВАНИЯ: 5400 конфигураций
+[2026-05-12 17:55:43] Архитектуры: ['OneDCNN', 'PipeCNNLSTM', 'CNNWithClassifier', 'PipeTransformer']
+[2026-05-12 17:55:43] ================================================================================
+[2026-05-12 17:55:43] [2/5400] PipeCNNLSTM: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 17:55:44]   Параметры модели: 2,004,770
+[2026-05-12 17:55:44] ERROR: max_pool1d() Invalid computed output size: 0
+[2026-05-12 17:55:44] [3/5400] CNNWithClassifier: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 17:55:44]   Параметры модели: 74,403
+[2026-05-12 17:55:44] ERROR: mat1 and mat2 shapes cannot be multiplied (8x8 and 64x2)
+[2026-05-12 17:55:44] [4/5400] PipeTransformer: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 17:55:45]   Параметры модели: 1,625,923
+[2026-05-12 17:55:45] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-12 17:55:45] [5/5400] OneDCNN: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 17:55:45]   Параметры модели: 78,114
+[2026-05-12 17:55:50]   train_with_tracking complit
+[2026-05-12 17:55:50] 
+✅ Обучение завершено!
+[2026-05-12 17:55:50]    Время обучения: 5.23 сек (0.09 мин)
+[2026-05-12 17:55:50]    Лучшая точность на валидации: 70.75%
+[2026-05-12 17:55:50]    Пиковое потребление RAM: 0.00 MB
+[2026-05-12 17:55:50]    Пиковое потребление VRAM: 21.30 MB
+[2026-05-12 17:55:50]   train_with_tracking complit
+[2026-05-12 17:55:50]  Start evaluate
+[2026-05-12 17:55:50]  INIT evaluate
+[2026-05-12 17:55:50]  Complit evaluate
+[2026-05-12 17:55:50]   eval_results init
+[2026-05-12 17:56:43] ================================================================================
+[2026-05-12 17:56:43] НАЧАЛО ТЕСТИРОВАНИЯ: 5400 конфигураций
+[2026-05-12 17:56:43] Архитектуры: ['OneDCNN', 'PipeCNNLSTM', 'CNNWithClassifier', 'PipeTransformer']
+[2026-05-12 17:56:43] ================================================================================
+[2026-05-12 17:56:43] [2/5400] PipeCNNLSTM: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 17:56:43]   Параметры модели: 2,004,770
+[2026-05-12 17:56:44] ERROR: max_pool1d() Invalid computed output size: 0
+[2026-05-12 17:56:44] [3/5400] CNNWithClassifier: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 17:56:44]   Параметры модели: 74,403
+[2026-05-12 17:56:44] ERROR: mat1 and mat2 shapes cannot be multiplied (8x8 and 64x2)
+[2026-05-12 17:56:44] [4/5400] PipeTransformer: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 17:56:44]   Параметры модели: 1,625,923
+[2026-05-12 17:56:44] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-12 17:56:44] [5/5400] OneDCNN: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 17:56:44]   Параметры модели: 78,114
+[2026-05-12 18:03:03] ================================================================================
+[2026-05-12 18:03:03] НАЧАЛО ТЕСТИРОВАНИЯ: 5400 конфигураций
+[2026-05-12 18:03:03] Архитектуры: ['OneDCNN', 'PipeCNNLSTM', 'CNNWithClassifier', 'PipeTransformer']
+[2026-05-12 18:03:03] ================================================================================
+[2026-05-12 18:03:03] [2/5400] PipeCNNLSTM: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 18:03:04]   Параметры модели: 2,004,770
+[2026-05-12 18:03:04] ERROR: max_pool1d() Invalid computed output size: 0
+[2026-05-12 18:03:04] [3/5400] CNNWithClassifier: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 18:03:04]   Параметры модели: 74,403
+[2026-05-12 18:03:04] ERROR: mat1 and mat2 shapes cannot be multiplied (8x8 and 64x2)
+[2026-05-12 18:03:04] [4/5400] PipeTransformer: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 18:03:05]   Параметры модели: 1,625,923
+[2026-05-12 18:03:05] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
+[2026-05-12 18:03:05] [5/5400] OneDCNN: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 18:03:05]   Параметры модели: 78,114
+[2026-05-12 18:03:09]   train_with_tracking complit
+[2026-05-12 18:03:09] 
+✅ Обучение завершено!
+[2026-05-12 18:03:09]    Время обучения: 4.27 сек (0.07 мин)
+[2026-05-12 18:03:09]    Лучшая точность на валидации: 74.19%
+[2026-05-12 18:03:09]    Пиковое потребление RAM: 0.00 MB
+[2026-05-12 18:03:09]    Пиковое потребление VRAM: 23.18 MB
+[2026-05-12 18:03:09]   train_with_tracking complit
+[2026-05-12 18:03:09]  Start evaluate
+[2026-05-12 18:03:09]  INIT evaluate
+[2026-05-12 18:03:09]  Complit evaluate
+[2026-05-12 18:03:09]   eval_results init
+[2026-05-12 18:10:15] ================================================================================
+[2026-05-12 18:10:15] НАЧАЛО ТЕСТИРОВАНИЯ: 5400 конфигураций
+[2026-05-12 18:10:15] Архитектуры: ['OneDCNN', 'PipeCNNLSTM', 'CNNWithClassifier', 'PipeTransformer']
+[2026-05-12 18:10:15] ================================================================================
+[2026-05-12 18:10:15] [2/5400] PipeCNNLSTM: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 18:10:16]   Параметры модели: 2,004,770
+[2026-05-12 18:10:16] ERROR: max_pool1d() Invalid computed output size: 0
+[2026-05-12 18:10:16] [3/5400] CNNWithClassifier: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 18:10:16]   Параметры модели: 74,403
+[2026-05-12 18:10:16] ERROR: mat1 and mat2 shapes cannot be multiplied (8x8 and 64x2)
+[2026-05-12 18:10:16] [4/5400] PipeTransformer: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 18:10:16]   Параметры модели: 1,625,923
+[2026-05-12 18:10:16] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
+[2026-05-12 18:10:16] [5/5400] OneDCNN: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 18:10:16]   Параметры модели: 78,114
+[2026-05-12 18:10:20]   train_with_tracking complit
+[2026-05-12 18:10:20] 
+✅ Обучение завершено!
+[2026-05-12 18:10:20]    Время обучения: 3.30 сек (0.06 мин)
+[2026-05-12 18:10:20]    Лучшая точность на валидации: 72.28%
+[2026-05-12 18:10:20]    Пиковое потребление RAM: 0.00 MB
+[2026-05-12 18:10:20]    Пиковое потребление VRAM: 19.13 MB
+[2026-05-12 18:10:20]   train_with_tracking complit
+[2026-05-12 18:10:20]  Start evaluate
+[2026-05-12 18:10:20]  INIT evaluate
+[2026-05-12 18:10:20]  Complit evaluate
+[2026-05-12 18:10:20]   eval_results init
+[2026-05-12 18:10:44]   inference_results init
+[2026-05-12 18:10:44]   efficiency_metrics init
+[2026-05-12 18:10:44]   model_filename init
+[2026-05-12 18:10:44]   model_path init
+[2026-05-12 18:10:44]   result init
+[2026-05-12 18:10:44] OK! Accuracy: 63.8623, F1: 0.1888
+[2026-05-12 18:10:44] [6/5400] PipeCNNLSTM: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 18:10:44]   Параметры модели: 2,004,770
+[2026-05-12 18:10:44] ERROR: max_pool1d() Invalid computed output size: 0
+[2026-05-12 18:10:44] [7/5400] CNNWithClassifier: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 18:10:44]   Параметры модели: 74,403
+[2026-05-12 18:10:44] ERROR: mat1 and mat2 shapes cannot be multiplied (8x8 and 64x2)
+[2026-05-12 18:10:44] [8/5400] PipeTransformer: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 18:10:44]   Параметры модели: 1,625,923
+[2026-05-12 18:10:44] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
+[2026-05-12 18:10:44] [9/5400] OneDCNN: N=100, BS=8, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-12 18:10:44]   Параметры модели: 78,114
+[2026-05-12 18:33:45] ================================================================================
+[2026-05-12 18:33:45] НАЧАЛО ТЕСТИРОВАНИЯ: 5400 конфигураций
+[2026-05-12 18:33:45] Архитектуры: ['OneDCNN', 'PipeCNNLSTM', 'CNNWithClassifier', 'PipeTransformer']
+[2026-05-12 18:33:45] ================================================================================
+[2026-05-12 18:33:45] [2/5400] PipeCNNLSTM: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 18:33:45]   Параметры модели: 2,004,770
+[2026-05-12 18:33:45] ERROR: max_pool1d() Invalid computed output size: 0
+[2026-05-12 18:33:45] [3/5400] CNNWithClassifier: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 18:33:46]   Параметры модели: 74,403
+[2026-05-12 18:33:46] ERROR: mat1 and mat2 shapes cannot be multiplied (8x8 and 64x2)
+[2026-05-12 18:33:46] [4/5400] PipeTransformer: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 18:33:46]   Параметры модели: 1,625,923
+[2026-05-12 18:33:46] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
+[2026-05-12 18:33:46] [6/5400] PipeCNNLSTM: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 18:33:46]   Параметры модели: 2,004,770
+[2026-05-12 18:33:47] ERROR: max_pool1d() Invalid computed output size: 0
+[2026-05-12 18:33:47] [7/5400] CNNWithClassifier: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 18:33:47]   Параметры модели: 74,403
+[2026-05-12 18:33:47] ERROR: mat1 and mat2 shapes cannot be multiplied (8x8 and 64x2)
+[2026-05-12 18:33:47] [8/5400] PipeTransformer: N=100, BS=8, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 18:33:47]   Параметры модели: 1,625,923
+[2026-05-12 18:33:47] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
+[2026-05-12 18:33:47] [9/5400] OneDCNN: N=100, BS=8, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-12 18:33:47]   Параметры модели: 78,114

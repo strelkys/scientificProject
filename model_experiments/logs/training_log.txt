@@ -594,3 +594,61 @@
 [2026-05-12 14:37:29] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
 [2026-05-12 14:37:29] [13/7200] OneDCNN: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=False
 [2026-05-12 14:37:29]   Параметры модели: 78,114
+[2026-05-12 14:49:48] ================================================================================
+[2026-05-12 14:49:48] НАЧАЛО ТЕСТИРОВАНИЯ: 7200 конфигураций
+[2026-05-12 14:49:48] Архитектуры: ['OneDCNN', 'PipeCNNLSTM', 'CNNWithClassifier', 'PipeTransformer']
+[2026-05-12 14:49:48] ================================================================================
+[2026-05-12 14:49:48] [2/7200] PipeCNNLSTM: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 14:49:49]   Параметры модели: 2,004,770
+[2026-05-12 14:49:49] ERROR: Expected more than 1 value per channel when training, got input size torch.Size([1, 128, 1])
+[2026-05-12 14:49:49] [3/7200] CNNWithClassifier: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 14:49:49] ERROR: PipeCNNEncoder.__init__() got an unexpected keyword argument 'n_classes'
+[2026-05-12 14:49:49] [4/7200] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-12 14:49:49]   Параметры модели: 1,625,923
+[2026-05-12 14:49:49] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-12 14:49:49] [6/7200] PipeCNNLSTM: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 14:49:50]   Параметры модели: 2,004,770
+[2026-05-12 14:49:50] ERROR: Expected more than 1 value per channel when training, got input size torch.Size([1, 128, 1])
+[2026-05-12 14:49:50] [7/7200] CNNWithClassifier: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 14:49:50] ERROR: PipeCNNEncoder.__init__() got an unexpected keyword argument 'n_classes'
+[2026-05-12 14:49:50] [8/7200] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-12 14:49:50]   Параметры модели: 1,625,923
+[2026-05-12 14:49:50] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-12 14:49:50] [10/7200] PipeCNNLSTM: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-12 14:49:50]   Параметры модели: 2,004,770
+[2026-05-12 14:49:50] ERROR: Expected more than 1 value per channel when training, got input size torch.Size([1, 128, 1])
+[2026-05-12 14:49:50] [11/7200] CNNWithClassifier: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-12 14:49:51] ERROR: PipeCNNEncoder.__init__() got an unexpected keyword argument 'n_classes'
+[2026-05-12 14:49:51] [12/7200] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-12 14:49:51]   Параметры модели: 1,625,923
+[2026-05-12 14:49:51] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-12 14:49:51] [13/7200] OneDCNN: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=False
+[2026-05-12 14:49:51]   Параметры модели: 78,114
+[2026-05-12 14:50:20]   train_with_tracking complit
+[2026-05-12 14:50:20] 
+✅ Обучение завершено!
+[2026-05-12 14:50:20]    Время обучения: 28.41 сек (0.47 мин)
+[2026-05-12 14:50:20]    Лучшая точность на валидации: 61.19%
+[2026-05-12 14:50:20]    Пиковое потребление RAM: 0.00 MB
+[2026-05-12 14:50:20]    Пиковое потребление VRAM: 20.60 MB
+[2026-05-12 14:50:20]   train_with_tracking complit
+[2026-05-12 14:50:20]  Start evaluate
+[2026-05-12 14:50:20]  INIT evaluate
+[2026-05-12 14:50:21]  Complit evaluate
+[2026-05-12 14:50:21]   eval_results init
+[2026-05-12 14:50:41]   inference_results init
+[2026-05-12 14:50:41]   efficiency_metrics init
+[2026-05-12 14:50:41]   model_filename init
+[2026-05-12 14:50:41]   model_path init
+[2026-05-12 14:50:41]   result init
+[2026-05-12 14:50:41] OK! Accuracy: 61.1855, F1: 0.0000
+[2026-05-12 14:50:41] [14/7200] PipeCNNLSTM: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=False
+[2026-05-12 14:50:42]   Параметры модели: 2,004,770
+[2026-05-12 14:50:42] ERROR: Expected more than 1 value per channel when training, got input size torch.Size([1, 128, 1])
+[2026-05-12 14:50:42] [15/7200] CNNWithClassifier: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=False
+[2026-05-12 14:50:42] ERROR: PipeCNNEncoder.__init__() got an unexpected keyword argument 'n_classes'
+[2026-05-12 14:50:42] [16/7200] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=False
+[2026-05-12 14:50:42]   Параметры модели: 1,625,923
+[2026-05-12 14:50:42] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-12 14:50:42] [17/7200] OneDCNN: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=True
+[2026-05-12 14:50:42]   Параметры модели: 78,114

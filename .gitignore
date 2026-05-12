@@ -1,2 +1,58 @@
 *.ipynb_checkpoints
 **/.ipynb_checkpoints/*
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.local
+.env.*
+.venv/
+venv/
+.envrc
+
+# Jupyter specific
+.ipynb_checkpoints
+**/.ipynb_checkpoints/*
+nbproject/
+.nbsession/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+*.coveragerc
+
+# Build
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Temp files
+*.tmp
+*~
+.DS_Store
+*.bak
+*.backup

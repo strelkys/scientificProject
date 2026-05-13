@@ -3030,3 +3030,81 @@
 [2026-05-13 20:58:35] ERROR: Given groups=1, weight of size [32, 8, 9], expected input[1, 214, 8] to have 8 channels, but got 214 channels instead
 [2026-05-13 20:58:35] [25/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.0005, RS=42, Aug=True
 [2026-05-13 20:58:36]   Параметры модели: 17,221
+[2026-05-13 21:52:13] ================================================================================
+[2026-05-13 21:52:13] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 21:52:13] Архитектуры: ['OneDCNNXGBoost']
+[2026-05-13 21:52:13] ================================================================================
+[2026-05-13 21:52:13] [1/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 21:52:14]   Параметры модели: 76,549
+[2026-05-13 21:52:17] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:17] [2/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 21:52:17]   Параметры модели: 76,549
+[2026-05-13 21:52:17] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:17] [3/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-13 21:52:18]   Параметры модели: 76,549
+[2026-05-13 21:52:18] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:18] [4/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=False
+[2026-05-13 21:52:18]   Параметры модели: 76,549
+[2026-05-13 21:52:18] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:18] [5/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=True
+[2026-05-13 21:52:19]   Параметры модели: 76,549
+[2026-05-13 21:52:19] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:19] [6/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=False
+[2026-05-13 21:52:20]   Параметры модели: 76,549
+[2026-05-13 21:52:20] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:20] [7/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.01, RS=42, Aug=True
+[2026-05-13 21:52:20]   Параметры модели: 76,549
+[2026-05-13 21:52:20] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:20] [8/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.01, RS=42, Aug=False
+[2026-05-13 21:52:21]   Параметры модели: 76,549
+[2026-05-13 21:52:21] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:21] [9/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.01, RS=64, Aug=True
+[2026-05-13 21:52:21]   Параметры модели: 76,549
+[2026-05-13 21:52:22] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:22] [10/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.01, RS=64, Aug=False
+[2026-05-13 21:52:22]   Параметры модели: 76,549
+[2026-05-13 21:52:22] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:22] [11/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.01, RS=31, Aug=True
+[2026-05-13 21:52:23]   Параметры модели: 76,549
+[2026-05-13 21:52:23] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:23] [12/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.01, RS=31, Aug=False
+[2026-05-13 21:52:23]   Параметры модели: 76,549
+[2026-05-13 21:52:23] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:23] [13/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.05, RS=42, Aug=True
+[2026-05-13 21:52:24]   Параметры модели: 76,549
+[2026-05-13 21:52:24] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:24] [14/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.05, RS=42, Aug=False
+[2026-05-13 21:52:24]   Параметры модели: 76,549
+[2026-05-13 21:52:24] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:24] [15/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.05, RS=64, Aug=True
+[2026-05-13 21:52:25]   Параметры модели: 76,549
+[2026-05-13 21:52:25] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:25] [16/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.05, RS=64, Aug=False
+[2026-05-13 21:52:25]   Параметры модели: 76,549
+[2026-05-13 21:52:25] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:25] [17/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.05, RS=31, Aug=True
+[2026-05-13 21:52:26]   Параметры модели: 76,549
+[2026-05-13 21:52:26] ERROR: mat1 and mat2 shapes cannot be multiplied (1x8 and 64x2)
+[2026-05-13 21:52:26] [18/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.05, RS=31, Aug=False
+[2026-05-13 21:56:58] ================================================================================
+[2026-05-13 21:56:58] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 21:56:58] Архитектуры: ['OneDCNNXGBoost']
+[2026-05-13 21:56:58] ================================================================================
+[2026-05-13 21:56:58] [1/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 21:56:59]   Параметры модели: 76,419
+[2026-05-13 21:57:45]   train_with_tracking completed
+[2026-05-13 21:57:47] 
+✅ Обучение завершено!
+[2026-05-13 21:57:47]    Время обучения: 46.40 сек (0.77 мин)
+[2026-05-13 21:57:47]    Лучшая точность на валидации: 72.66%
+[2026-05-13 21:57:47]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 21:57:47]    Пиковое потребление VRAM: 33.16 MB
+[2026-05-13 21:57:47]   train_with_tracking complit
+[2026-05-13 21:58:10]   inference_results init
+[2026-05-13 21:58:10]   efficiency_metrics init
+[2026-05-13 21:58:10]   model_filename init
+[2026-05-13 21:58:10]   model_path init
+[2026-05-13 21:58:10]   result init
+[2026-05-13 21:58:10] OK! Accuracy: 72.6577, F1: 0.6317
+[2026-05-13 21:58:10] [2/2250] OneDCNNXGBoost: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 21:58:11]   Параметры модели: 76,419

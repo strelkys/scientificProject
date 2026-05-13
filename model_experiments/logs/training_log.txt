@@ -2402,3 +2402,389 @@
 [2026-05-13 13:43:32] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
 [2026-05-13 13:43:32] [6/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=False
 [2026-05-13 13:43:32]   Параметры модели: 1,625,923
+[2026-05-13 14:28:41] ================================================================================
+[2026-05-13 14:28:41] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 14:28:41] Архитектуры: ['PipeTransformer']
+[2026-05-13 14:28:41] ================================================================================
+[2026-05-13 14:28:41] [1/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 14:28:42]   Параметры модели: 1,625,923
+[2026-05-13 14:28:44] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
+[2026-05-13 14:28:44] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 14:28:44]   Параметры модели: 1,625,923
+[2026-05-13 14:28:44] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
+[2026-05-13 14:28:44] [3/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-13 14:28:45]   Параметры модели: 1,625,923
+[2026-05-13 14:28:45] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
+[2026-05-13 14:28:45] [4/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=False
+[2026-05-13 14:28:45]   Параметры модели: 1,625,923
+[2026-05-13 14:28:46] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
+[2026-05-13 14:28:46] [5/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=True
+[2026-05-13 14:28:46]   Параметры модели: 1,625,923
+[2026-05-13 14:28:47] ERROR: For batched (3-D) `query`, expected `key_padding_mask` to be `None` or 2-D but found 1-D tensor instead
+[2026-05-13 14:28:47] [6/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=False
+[2026-05-13 15:42:25] ================================================================================
+[2026-05-13 15:42:25] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 15:42:25] Архитектуры: ['PipeTransformer']
+[2026-05-13 15:42:25] ================================================================================
+[2026-05-13 15:42:25] [1/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 15:42:25]   Параметры модели: 633,667
+[2026-05-13 15:42:25] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:25] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 15:42:26]   Параметры модели: 633,667
+[2026-05-13 15:42:26] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:26] [3/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-13 15:42:27]   Параметры модели: 633,667
+[2026-05-13 15:42:27] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:27] [4/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=False
+[2026-05-13 15:42:27]   Параметры модели: 633,667
+[2026-05-13 15:42:27] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:27] [5/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=True
+[2026-05-13 15:42:28]   Параметры модели: 633,667
+[2026-05-13 15:42:28] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:28] [6/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=False
+[2026-05-13 15:42:28]   Параметры модели: 633,667
+[2026-05-13 15:42:28] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:28] [7/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=42, Aug=True
+[2026-05-13 15:42:29]   Параметры модели: 633,667
+[2026-05-13 15:42:29] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:29] [8/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=42, Aug=False
+[2026-05-13 15:42:29]   Параметры модели: 633,667
+[2026-05-13 15:42:29] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:29] [9/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=64, Aug=True
+[2026-05-13 15:42:30]   Параметры модели: 633,667
+[2026-05-13 15:42:30] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:30] [10/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=64, Aug=False
+[2026-05-13 15:42:31]   Параметры модели: 633,667
+[2026-05-13 15:42:31] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:31] [11/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=31, Aug=True
+[2026-05-13 15:42:31]   Параметры модели: 633,667
+[2026-05-13 15:42:31] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:31] [12/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=31, Aug=False
+[2026-05-13 15:42:32]   Параметры модели: 633,667
+[2026-05-13 15:42:32] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:32] [13/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.05, RS=42, Aug=True
+[2026-05-13 15:42:33]   Параметры модели: 633,667
+[2026-05-13 15:42:33] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:42:33] [14/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.05, RS=42, Aug=False
+[2026-05-13 15:49:50] ================================================================================
+[2026-05-13 15:49:50] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 15:49:50] Архитектуры: ['PipeTransformer']
+[2026-05-13 15:49:50] ================================================================================
+[2026-05-13 15:49:50] [1/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 15:49:50]   Параметры модели: 633,667
+[2026-05-13 15:49:51] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:49:51] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 15:49:51]   Параметры модели: 633,667
+[2026-05-13 15:49:51] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:49:51] [3/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-13 15:49:52]   Параметры модели: 633,667
+[2026-05-13 15:49:52] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:49:52] [4/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=False
+[2026-05-13 15:49:52]   Параметры модели: 633,667
+[2026-05-13 15:49:52] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:49:52] [5/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=True
+[2026-05-13 15:49:53]   Параметры модели: 633,667
+[2026-05-13 15:49:53] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument attn_bias in method wrapper_CUDA___scaled_dot_product_efficient_attention)
+[2026-05-13 15:49:53] [6/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=False
+[2026-05-13 15:51:24] ================================================================================
+[2026-05-13 15:51:24] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 15:51:24] Архитектуры: ['PipeTransformer']
+[2026-05-13 15:51:24] ================================================================================
+[2026-05-13 15:51:24] [1/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 15:51:24]   Параметры модели: 633,667
+[2026-05-13 15:51:25] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:25] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 15:51:25]   Параметры модели: 633,667
+[2026-05-13 15:51:25] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:25] [3/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-13 15:51:26]   Параметры модели: 633,667
+[2026-05-13 15:51:26] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:26] [4/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=False
+[2026-05-13 15:51:27]   Параметры модели: 633,667
+[2026-05-13 15:51:27] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:27] [5/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=True
+[2026-05-13 15:51:27]   Параметры модели: 633,667
+[2026-05-13 15:51:28] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:28] [6/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=31, Aug=False
+[2026-05-13 15:51:28]   Параметры модели: 633,667
+[2026-05-13 15:51:28] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:28] [7/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=42, Aug=True
+[2026-05-13 15:51:29]   Параметры модели: 633,667
+[2026-05-13 15:51:29] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:29] [8/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=42, Aug=False
+[2026-05-13 15:51:29]   Параметры модели: 633,667
+[2026-05-13 15:51:30] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:30] [9/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=64, Aug=True
+[2026-05-13 15:51:30]   Параметры модели: 633,667
+[2026-05-13 15:51:30] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:30] [10/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=64, Aug=False
+[2026-05-13 15:51:31]   Параметры модели: 633,667
+[2026-05-13 15:51:31] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:31] [11/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=31, Aug=True
+[2026-05-13 15:51:32]   Параметры модели: 633,667
+[2026-05-13 15:51:32] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:32] [12/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.01, RS=31, Aug=False
+[2026-05-13 15:51:32]   Параметры модели: 633,667
+[2026-05-13 15:51:32] ERROR: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[2026-05-13 15:51:32] [13/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.05, RS=42, Aug=True
+[2026-05-13 15:54:46] ================================================================================
+[2026-05-13 15:54:46] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 15:54:46] Архитектуры: ['PipeTransformer']
+[2026-05-13 15:54:46] ================================================================================
+[2026-05-13 15:54:46] [1/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 15:54:46]   Параметры модели: 633,667
+[2026-05-13 15:56:57]   train_with_tracking complit
+[2026-05-13 15:56:57] 
+✅ Обучение завершено!
+[2026-05-13 15:56:57]    Время обучения: 130.66 сек (2.18 мин)
+[2026-05-13 15:56:57]    Лучшая точность на валидации: 65.01%
+[2026-05-13 15:56:57]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 15:56:57]    Пиковое потребление VRAM: 36.58 MB
+[2026-05-13 15:56:57]   train_with_tracking complit
+[2026-05-13 15:56:57] ERROR: Padding mask should be 2D
+[2026-05-13 15:56:57] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 15:56:57]   Параметры модели: 633,667
+[2026-05-13 16:26:51] ================================================================================
+[2026-05-13 16:26:51] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 16:26:51] Архитектуры: ['PipeTransformer']
+[2026-05-13 16:26:51] ================================================================================
+[2026-05-13 16:26:51] [1/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 16:26:52]   Параметры модели: 633,667
+[2026-05-13 16:28:36]   train_with_tracking complit
+[2026-05-13 16:28:36] 
+✅ Обучение завершено!
+[2026-05-13 16:28:36]    Время обучения: 98.93 сек (1.65 мин)
+[2026-05-13 16:28:36]    Лучшая точность на валидации: 61.19%
+[2026-05-13 16:28:36]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 16:28:36]    Пиковое потребление VRAM: 28.60 MB
+[2026-05-13 16:28:36]   train_with_tracking complit
+[2026-05-13 16:28:36] ERROR: Padding mask should be 2D
+[2026-05-13 16:28:36] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 16:28:36]   Параметры модели: 633,667
+[2026-05-13 16:30:09]   train_with_tracking complit
+[2026-05-13 16:30:09] 
+✅ Обучение завершено!
+[2026-05-13 16:30:09]    Время обучения: 93.06 сек (1.55 мин)
+[2026-05-13 16:30:09]    Лучшая точность на валидации: 61.19%
+[2026-05-13 16:30:09]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 16:30:09]    Пиковое потребление VRAM: 28.60 MB
+[2026-05-13 16:30:09]   train_with_tracking complit
+[2026-05-13 16:30:09] ERROR: Padding mask should be 2D
+[2026-05-13 16:30:09] [3/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-13 16:30:10]   Параметры модели: 633,667
+[2026-05-13 16:39:43] ================================================================================
+[2026-05-13 16:39:43] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 16:39:43] Архитектуры: ['PipeTransformer']
+[2026-05-13 16:39:43] ================================================================================
+[2026-05-13 16:39:43] [1/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 16:39:43]   Параметры модели: 633,667
+[2026-05-13 16:41:17]   train_with_tracking complit
+[2026-05-13 16:41:17] 
+✅ Обучение завершено!
+[2026-05-13 16:41:17]    Время обучения: 94.06 сек (1.57 мин)
+[2026-05-13 16:41:17]    Лучшая точность на валидации: 69.60%
+[2026-05-13 16:41:17]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 16:41:17]    Пиковое потребление VRAM: 38.52 MB
+[2026-05-13 16:41:17]   train_with_tracking complit
+[2026-05-13 16:41:17] ERROR: Padding mask should be 2D
+[2026-05-13 16:41:17] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 16:41:18]   Параметры модели: 633,667
+[2026-05-13 16:56:55] ================================================================================
+[2026-05-13 16:56:55] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 16:56:55] Архитектуры: ['PipeTransformer']
+[2026-05-13 16:56:55] ================================================================================
+[2026-05-13 16:56:55] [1/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 16:56:55]   Параметры модели: 633,667
+[2026-05-13 16:58:40]   train_with_tracking complit
+[2026-05-13 16:58:40] 
+✅ Обучение завершено!
+[2026-05-13 16:58:40]    Время обучения: 104.38 сек (1.74 мин)
+[2026-05-13 16:58:40]    Лучшая точность на валидации: 68.83%
+[2026-05-13 16:58:40]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 16:58:40]    Пиковое потребление VRAM: 38.53 MB
+[2026-05-13 16:58:40]   train_with_tracking complit
+[2026-05-13 17:00:25]   inference_results init
+[2026-05-13 17:00:25]   efficiency_metrics init
+[2026-05-13 17:00:25]   model_filename init
+[2026-05-13 17:00:25]   model_path init
+[2026-05-13 17:00:25]   result init
+[2026-05-13 17:00:25] ERROR: unsupported format string passed to NoneType.__format__
+[2026-05-13 17:00:25] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 17:00:26]   Параметры модели: 633,667
+[2026-05-13 17:05:04] ================================================================================
+[2026-05-13 17:05:04] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 17:05:04] Архитектуры: ['PipeTransformer']
+[2026-05-13 17:05:04] ================================================================================
+[2026-05-13 17:05:04] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 17:05:04]   Параметры модели: 633,667
+[2026-05-13 17:06:42]   train_with_tracking complit
+[2026-05-13 17:06:42] 
+✅ Обучение завершено!
+[2026-05-13 17:06:42]    Время обучения: 98.42 сек (1.64 мин)
+[2026-05-13 17:06:42]    Лучшая точность на валидации: 61.19%
+[2026-05-13 17:06:42]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 17:06:42]    Пиковое потребление VRAM: 48.47 MB
+[2026-05-13 17:06:42]   train_with_tracking complit
+[2026-05-13 17:08:27]   inference_results init
+[2026-05-13 17:08:27]   efficiency_metrics init
+[2026-05-13 17:08:27]   model_filename init
+[2026-05-13 17:08:27]   model_path init
+[2026-05-13 17:08:27]   result init
+[2026-05-13 17:08:27] ERROR: unsupported format string passed to NoneType.__format__
+[2026-05-13 17:08:27] [3/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-13 17:08:28]   Параметры модели: 633,667
+[2026-05-13 17:14:24] ================================================================================
+[2026-05-13 17:14:24] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 17:14:24] Архитектуры: ['PipeTransformer']
+[2026-05-13 17:14:24] ================================================================================
+[2026-05-13 17:14:24] [1/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 17:14:25]   Параметры модели: 633,667
+[2026-05-13 17:16:02]   train_with_tracking complit
+[2026-05-13 17:16:02] 
+✅ Обучение завершено!
+[2026-05-13 17:16:02]    Время обучения: 94.85 сек (1.58 мин)
+[2026-05-13 17:16:02]    Лучшая точность на валидации: 67.11%
+[2026-05-13 17:16:02]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 17:16:02]    Пиковое потребление VRAM: 28.60 MB
+[2026-05-13 17:16:02]   train_with_tracking complit
+[2026-05-13 17:17:46]   inference_results init
+[2026-05-13 17:17:46]   efficiency_metrics init
+[2026-05-13 17:17:46]   model_filename init
+[2026-05-13 17:17:46]   model_path init
+[2026-05-13 17:17:46]   result init
+[2026-05-13 17:17:46] ERROR: unsupported format string passed to NoneType.__format__
+[2026-05-13 17:17:46] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 17:17:47]   Параметры модели: 633,667
+[2026-05-13 17:24:10] ================================================================================
+[2026-05-13 17:24:10] НАЧАЛО ТЕСТИРОВАНИЯ: 2250 конфигураций
+[2026-05-13 17:24:10] Архитектуры: ['PipeTransformer']
+[2026-05-13 17:24:10] ================================================================================
+[2026-05-13 17:24:10] [2/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 17:24:10]   Параметры модели: 633,667
+[2026-05-13 17:26:26]   train_with_tracking complit
+[2026-05-13 17:26:26] 
+✅ Обучение завершено!
+[2026-05-13 17:26:26]    Время обучения: 135.75 сек (2.26 мин)
+[2026-05-13 17:26:26]    Лучшая точность на валидации: 70.17%
+[2026-05-13 17:26:26]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 17:26:26]    Пиковое потребление VRAM: 38.53 MB
+[2026-05-13 17:26:26]   train_with_tracking complit
+[2026-05-13 17:28:22]   inference_results init
+[2026-05-13 17:28:22]   efficiency_metrics init
+[2026-05-13 17:28:22]   model_filename init
+[2026-05-13 17:28:22]   model_path init
+[2026-05-13 17:28:22]   result init
+[2026-05-13 17:28:22] ERROR: unsupported format string passed to NoneType.__format__
+[2026-05-13 17:28:22] [3/2250] PipeTransformer: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-13 17:28:22]   Параметры модели: 633,667
+[2026-05-13 17:39:58] ================================================================================
+[2026-05-13 17:39:58] НАЧАЛО ТЕСТИРОВАНИЯ: 6750 конфигураций
+[2026-05-13 17:39:58] Архитектуры: ['OneDCNN', 'PipeCNNLSTM', 'PipeTransformer']
+[2026-05-13 17:39:58] ================================================================================
+[2026-05-13 17:39:58] [1/6750] OneDCNN: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 17:39:59]   Параметры модели: 78,114
+[2026-05-13 17:40:32]   train_with_tracking complit
+[2026-05-13 17:40:32] 
+✅ Обучение завершено!
+[2026-05-13 17:40:32]    Время обучения: 27.86 сек (0.46 мин)
+[2026-05-13 17:40:32]    Лучшая точность на валидации: 61.19%
+[2026-05-13 17:40:32]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 17:40:32]    Пиковое потребление VRAM: 34.98 MB
+[2026-05-13 17:40:32]   train_with_tracking complit
+[2026-05-13 17:40:55]   inference_results init
+[2026-05-13 17:40:55]   efficiency_metrics init
+[2026-05-13 17:40:55]   model_filename init
+[2026-05-13 17:40:55]   model_path init
+[2026-05-13 17:40:55]   result init
+[2026-05-13 17:40:55] ERROR: unsupported format string passed to NoneType.__format__
+[2026-05-13 17:40:55] [2/6750] PipeCNNLSTM: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 17:40:55]   Параметры модели: 1,552,674
+[2026-05-13 17:41:41]   train_with_tracking complit
+[2026-05-13 17:41:41] 
+✅ Обучение завершено!
+[2026-05-13 17:41:41]    Время обучения: 45.21 сек (0.75 мин)
+[2026-05-13 17:41:41]    Лучшая точность на валидации: 61.19%
+[2026-05-13 17:41:41]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 17:41:41]    Пиковое потребление VRAM: 110.31 MB
+[2026-05-13 17:41:41]   train_with_tracking complit
+[2026-05-13 17:42:40]   inference_results init
+[2026-05-13 17:42:40]   efficiency_metrics init
+[2026-05-13 17:42:40]   model_filename init
+[2026-05-13 17:42:40]   model_path init
+[2026-05-13 17:42:40]   result init
+[2026-05-13 17:42:40] ERROR: unsupported format string passed to NoneType.__format__
+[2026-05-13 17:42:40] [4/6750] OneDCNN: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 17:42:40]   Параметры модели: 78,114
+[2026-05-13 17:43:07]   train_with_tracking complit
+[2026-05-13 17:43:07] 
+✅ Обучение завершено!
+[2026-05-13 17:43:07]    Время обучения: 26.43 сек (0.44 мин)
+[2026-05-13 17:43:07]    Лучшая точность на валидации: 61.19%
+[2026-05-13 17:43:07]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 17:43:07]    Пиковое потребление VRAM: 18.80 MB
+[2026-05-13 17:43:07]   train_with_tracking complit
+[2026-05-13 17:43:32]   inference_results init
+[2026-05-13 17:43:32]   efficiency_metrics init
+[2026-05-13 17:43:32]   model_filename init
+[2026-05-13 17:43:32]   model_path init
+[2026-05-13 17:43:32]   result init
+[2026-05-13 17:43:32] ERROR: unsupported format string passed to NoneType.__format__
+[2026-05-13 17:43:32] [5/6750] PipeCNNLSTM: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 17:43:33]   Параметры модели: 1,552,674
+[2026-05-13 18:11:44] ================================================================================
+[2026-05-13 18:11:44] НАЧАЛО ТЕСТИРОВАНИЯ: 6750 конфигураций
+[2026-05-13 18:11:44] Архитектуры: ['OneDCNN', 'PipeCNNLSTM', 'PipeTransformer']
+[2026-05-13 18:11:44] ================================================================================
+[2026-05-13 18:11:44] [5/6750] PipeCNNLSTM: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 18:13:32] ================================================================================
+[2026-05-13 18:13:32] НАЧАЛО ТЕСТИРОВАНИЯ: 6750 конфигураций
+[2026-05-13 18:13:32] Архитектуры: ['OneDCNN', 'PipeCNNLSTM', 'PipeTransformer']
+[2026-05-13 18:13:32] ================================================================================
+[2026-05-13 18:13:32] [5/6750] PipeCNNLSTM: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=False
+[2026-05-13 18:13:33]   Параметры модели: 1,552,674
+[2026-05-13 18:14:40]   train_with_tracking complit
+[2026-05-13 18:14:40] 
+✅ Обучение завершено!
+[2026-05-13 18:14:40]    Время обучения: 64.55 сек (1.08 мин)
+[2026-05-13 18:14:40]    Лучшая точность на валидации: 61.19%
+[2026-05-13 18:14:40]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 18:14:40]    Пиковое потребление VRAM: 111.13 MB
+[2026-05-13 18:14:40]   train_with_tracking complit
+[2026-05-13 18:15:39]   inference_results init
+[2026-05-13 18:15:39]   efficiency_metrics init
+[2026-05-13 18:15:39]   model_filename init
+[2026-05-13 18:15:39]   model_path init
+[2026-05-13 18:15:39]   result init
+[2026-05-13 18:15:39] OK! Accuracy: 0.0000, F1: 0.0000
+[2026-05-13 18:15:39] [7/6750] OneDCNN: N=100, BS=1, DO=0.2, LR=0.001, RS=64, Aug=True
+[2026-05-13 18:15:39]   Параметры модели: 78,114
+[2026-05-13 18:16:05]   train_with_tracking complit
+[2026-05-13 18:16:05] 
+✅ Обучение завершено!
+[2026-05-13 18:16:05]    Время обучения: 25.62 сек (0.43 мин)
+[2026-05-13 18:16:05]    Лучшая точность на валидации: 61.19%
+[2026-05-13 18:16:05]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 18:16:05]    Пиковое потребление VRAM: 35.31 MB
+[2026-05-13 18:16:05]   train_with_tracking complit
+[2026-05-13 18:40:13] ================================================================================
+[2026-05-13 18:40:13] НАЧАЛО ТЕСТИРОВАНИЯ: 6750 конфигураций
+[2026-05-13 18:40:14] Архитектуры: ['OneDCNN', 'PipeCNNLSTM', 'PipeTransformer']
+[2026-05-13 18:40:14] ================================================================================
+[2026-05-13 18:40:14] [1/6750] OneDCNN: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 18:40:16]   Параметры модели: 78,114
+[2026-05-13 18:40:48]   train_with_tracking completed
+[2026-05-13 18:40:49] 
+✅ Обучение завершено!
+[2026-05-13 18:40:49]    Время обучения: 30.07 сек (0.50 мин)
+[2026-05-13 18:40:49]    Лучшая точность: 61.19% | F1-Score: 0.3796
+[2026-05-13 18:40:49]    Пиковое потребление RAM: 0.00 MB
+[2026-05-13 18:40:49]    Пиковое потребление VRAM: 34.98 MB
+[2026-05-13 18:40:49]   train_with_tracking complit
+[2026-05-13 18:41:14]   inference_results init
+[2026-05-13 18:41:14]   efficiency_metrics init
+[2026-05-13 18:41:14]   model_filename init
+[2026-05-13 18:41:14]   model_path init
+[2026-05-13 18:41:14]   result init
+[2026-05-13 18:41:14] OK! Accuracy: 61.1855, F1: 0.3796
+[2026-05-13 18:41:14] [2/6750] PipeCNNLSTM: N=100, BS=1, DO=0.2, LR=0.001, RS=42, Aug=True
+[2026-05-13 18:41:14]   Параметры модели: 1,552,674

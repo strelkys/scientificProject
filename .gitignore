@@ -1,2 +1,1077 @@
-*.ipynb_checkpoints
-.checkpoints/
+*.ipynb_checkpoints/
+**/.ipynb_checkpoints/*
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+@__thumb
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Compression files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+target/
+.gradle/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# Node modules
+node_modules/
+
+# IDE specific
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs/
+*.log
+
+# Local configuration
+config/local/*
+config/development/*
+
+# Testing
+.test-results/
+
+# GitHub
+.github/
+
+# GitLab
+.gitlab/
+
+# Temporary uploads
+/uploads/
+
+# Cache
+.cache/
+*.cache
+
+# Database
+*.db
+*.db-journal
+
+# Secrets
+secrets/
+.secret
+
+# Private keys
+*.key
+*.pem
+*.crt
+*.cert
+*.pub
+
+# Sensitive data
+sensitive/
+private/
+
+# Environment-specific
+.envrc
+.env.local
+
+# Development tools
+.development/
+.development.log
+
+# Production
+.production/
+production.log
+
+# CI/CD
+.circleci/
+.travis.yml
+.drone.yml
+.gitlab-ci.yml
+.semaphore/
+.codeclimate.yml
+.jenkins.yml
+
+# Docker
+.dockerenv
+Dockerfile*
+
+# Kubernetes
+.kube/
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Vagrant
+.vagrant/
+
+# Ansible
+.ansible/
+
+# Terraform
+.terraform/
+
+# Puppet
+.puppet/
+
+# Chef
+.chef/
+
+# Salt
+.salt/
+
+# Gradle
+.gradle/
+
+# Maven
+.mvn/
+
+# SBT
+.target/
+
+# Leiningen
+.lein/
+
+# Ruby
+vendor/bundle/
+.bundle/
+
+# PHP
+vendor/
+
+# Go
+vendor/
+*.mod
+*.sum
+
+# Rust
+Cargo.lock
+target/
+
+# C#
+bin/
+obj/
+*.sln
+*.csproj.user
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# C/C++
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.obj
+
+# .NET
+bin/
+obj/
+*.userprefs
+*.userosscache
+*.suo
+
+# Android
+*.apk
+*.aar
+*.dex
+
+# iOS
+*.ipa
+*.dSYM
+
+# Web
+*.min.js
+*.min.css
+
+# Documentation
+doc/api/
+
+# Assets
+assets/dist/
+
+# Thumbnails
+.thumbnails/
+
+# Snapshots
+.snapshots/
+
+# Reports
+reports/
+
+# Artifacts
+artifacts/
+
+# Backup
+backup/
+backups/
+
+# Temp
+tmp/
+temp/
+
+# Cache
+.cache/
+.caches/
+
+# Lock files
+*.lock
+
+# State
+.state/
+
+# Session
+.session/
+
+# Storage
+storage/
+
+# Uploads
+uploads/
+
+# Downloads
+downloads/
+
+# Temp files
+.tmp/
+.temp/
+
+# Local
+.local/
+
+# Private
+.private/
+
+# Secret
+.secret/
+
+# Config
+.config/
+
+# Data
+.data/
+
+# Log
+.log/
+
+# Out
+.out/
+
+# Pid
+.pid/
+
+# Socket
+.socket/
+
+# Trace
+.trace/
+
+# Profile
+.profile/
+
+# Stats
+.stats/
+
+# Metrics
+.metrics/
+
+# Debug
+.debug/
+
+# Error
+.error/
+
+# Warning
+.warning/
+
+# Info
+.info/
+
+# Success
+.success/
+
+# Failure
+.failure/
+
+# Critical
+.critical/
+
+# Fatal
+.fatal/
+
+# Emergency
+.emergency/
+
+# Alert
+.alert/
+
+# Notice
+.notice/
+
+# Traceback
+.traceback/
+
+# Stacktrace
+.stacktrace/
+
+# Core
+.core/
+
+# Dump
+.dump/
+
+# Heap
+.heap/
+
+# Memory
+.memory/
+
+# Perf
+.perf/
+
+# Prof
+.prof/
+
+# Stats
+.stats/
+
+# Trace
+.trace/
+
+# Log
+.log/
+
+# Err
+.err/
+
+# Warnings
+.warnings/
+
+# Info
+.info/
+
+# Out
+.out/
+
+# Pid
+.pid/
+
+# Socket
+.socket/
+
+# Trace
+.trace/
+
+# Profile
+.profile/
+
+# Stats
+.stats/
+
+# Metrics
+.metrics/
+
+# Debug
+.debug/
+
+# Error
+.error/
+
+# Warning
+.warning/
+
+# Info
+.info/
+
+# Success
+.success/
+
+# Failure
+.failure/
+
+# Critical
+.critical/
+
+# Fatal
+.fatal/
+
+# Emergency
+.emergency/
+
+# Alert
+.alert/
+
+# Notice
+.notice/
+
+# Traceback
+.traceback/
+
+# Stacktrace
+.stacktrace/
+
+# Core
+.core/
+
+# Dump
+.dump/
+
+# Heap
+.heap/
+
+# Memory
+.memory/
+
+# Perf
+.perf/
+
+# Prof
+.prof/
+
+# Stats
+.stats/
+
+# Trace
+.trace/
+
+# Log
+.log/
+
+# Err
+.err/
+
+# Warnings
+.warnings/
+
+# Info
+.info/
+
+# Out
+.out/
+
+# Pid
+.pid/
+
+# Socket
+.socket/
+
+# Trace
+.trace/
+
+# Profile
+.profile/
+
+# Stats
+.stats/
+
+# Metrics
+.metrics/
+
+# Debug
+.debug/
+
+# Error
+.error/
+
+# Warning
+.warning/
+
+# Info
+.info/
+
+# Success
+.success/
+
+# Failure
+.failure/
+
+# Critical
+.critical/
+
+# Fatal
+.fatal/
+
+# Emergency
+.emergency/
+
+# Alert
+.alert/
+
+# Notice
+.notice/
+
+# Traceback
+.traceback/
+
+# Stacktrace
+.stacktrace/
+
+# Core
+.core/
+
+# Dump
+.dump/
+
+# Heap
+.heap/
+
+# Memory
+.memory/
+
+# Perf
+.perf/
+
+# Prof
+.prof/
+
+# Stats
+.stats/
+
+# Trace
+.trace/
+
+# Log
+.log/
+
+# Err
+.err/
+
+# Warnings
+.warnings/
+
+# Info
+.info/
+
+# Out
+.out/
+
+# Pid
+.pid/
+
+# Socket
+.socket/
+
+# Trace
+.trace/
+
+# Profile
+.profile/
+
+# Stats
+.stats/
+
+# Metrics
+.metrics/
+
+# Debug
+.debug/
+
+# Error
+.error/
+
+# Warning
+.warning/
+
+# Info
+.info/
+
+# Success
+.success/
+
+# Failure
+.failure/
+
+# Critical
+.critical/
+
+# Fatal
+.fatal/
+
+# Emergency
+.emergency/
+
+# Alert
+.alert/
+
+# Notice
+.notice/
+
+# Traceback
+.traceback/
+
+# Stacktrace
+.stacktrace/
+
+# Core
+.core/
+
+# Dump
+.dump/
+
+# Heap
+.heap/
+
+# Memory
+.memory/
+
+# Perf
+.perf/
+
+# Prof
+.prof/
+
+# Stats
+.stats/
+
+# Trace
+.trace/
+
+# Log
+.log/
+
+# Err
+.err/
+
+# Warnings
+.warnings/
+
+# Info
+.info/
+
+# Out
+.out/
+
+# Pid
+.pid/
+
+# Socket
+.socket/
+
+# Trace
+.trace/
+
+# Profile
+.profile/
+
+# Stats
+.stats/
+
+# Metrics
+.metrics/
+
+# Debug
+.debug/
+
+# Error
+.error/
+
+# Warning
+.warning/
+
+# Info
+.info/
+
+# Success
+.success/
+
+# Failure
+.failure/
+
+# Critical
+.critical/
+
+# Fatal
+.fatal/
+
+# Emergency
+.emergency/
+
+# Alert
+.alert/
+
+# Notice
+.notice/
+
+# Traceback
+.traceback/
+
+# Stacktrace
+.stacktrace/
+
+# Core
+.core/
+
+# Dump
+.dump/
+
+# Heap
+.heap/
+
+# Memory
+.memory/
+
+# Perf
+.perf/
+
+# Prof
+.prof/
+
+# Stats
+.stats/
+
+# Trace
+.trace/
+
+# Log
+.log/
+
+# Err
+.err/
+
+# Warnings
+.warnings/
+
+# Info
+.info/
+
+# Out
+.out/
+
+# Pid
+.pid/
+
+# Socket
+.socket/
+
+# Trace
+.trace/
+
+# Profile
+.profile/
+
+# Stats
+.stats/
+
+# Metrics
+.metrics/
+
+# Debug
+.debug/
+
+# Error
+.error/
+
+# Warning
+.warning/
+
+# Info
+.info/
+
+# Success
+.success/
+
+# Failure
+.failure/
+
+# Critical
+.critical/
+
+# Fatal
+.fatal/
+
+# Emergency
+.emergency/
+
+# Alert
+.alert/
+
+# Notice
+.notice/
+
+# Traceback
+.traceback/
+
+# Stacktrace
+.stacktrace/
+
+# Core
+.core/
+
+# Dump
+.dump/
+
+# Heap
+.heap/
+
+# Memory
+.memory/
+
+# Perf
+.perf/
+
+# Prof
+.prof/
+
+# Stats
+.stats/
+
+# Trace
+.trace/
+
+# Log
+.log/
+
+# Err
+.err/
+
+# Warnings
+.warnings/
+
+# Info
+.info/
+
+# Out
+.out/
+
+# Pid
+.pid/
+
+# Socket
+.socket/
+
+# Trace
+.trace/
+
+# Profile
+.profile/
+
+# Stats
+.stats/
+
+# Metrics
+.metrics/
+
+# Debug
+.debug/
+
+# Error
+.error/
+
+# Warning
+.warning/
+
+# Info
+.info/
+
+# Success
+......

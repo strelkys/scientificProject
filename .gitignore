@@ -1,1 +1,12 @@
-Nothing needs to be added to the .gitignore file based on the provided changes. The modification of 'TestingAI.ipynb' does not require any new ignore rules, as Jupyter notebook files are typically source files that should be tracked in version control.
+*.ipynb_checkpoints/
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+.env
+.env.local
+*.env.*

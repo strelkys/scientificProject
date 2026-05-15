@@ -1,1 +1,1 @@
-Nothing needs to be added to the .gitignore file based on the provided changes. The modification of 'TestingAI.ipynb' does not require any new ignore rules, as Jupyter notebook files are typically source files that should be tracked in version control.
+Nothing needs to be added to .gitignore since only a Python source file (`convert_results_to_excel.py`) was added, and there are no build artifacts, dependencies, or temporary files in the changes.

@@ -55,9 +55,31 @@ def convert_results_to_excel(input_json_path, output_excel_path):
     with open(input_json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
+    # Если данные вложены в ключ, извлекаем список
+    if isinstance(data, dict):
+        # Пробуем найти список в значениях словаря
+        for key in ['results', 'data', 'experiments']:
+            if key in data and isinstance(data[key], list):
+                data = data[key]
+                break
+        else:
+            # Если не нашли известный ключ, берем первое значение-список
+            for value in data.values():
+                if isinstance(value, list):
+                    data = value
+                    break
+    
+    # Убеждаемся, что данные - это список
+    if not isinstance(data, list):
+        print(f"Ошибка: Ожидался список записей, но получено: {type(data)}")
+        return
+    
     # Подготовка данных для DataFrame
     rows = []
     for record in data:
+        if not isinstance(record, dict):
+            continue
+            
         row = {}
         
         # Копируем все поля кроме metrics
